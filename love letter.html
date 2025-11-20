@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To My Everything, Mary-Ann ♡</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300;400&display=swap');
+    
+    body, html {
+      margin: 0; padding: 0; height: 100%; overflow-x: hidden;
+      font-family: 'Roboto', sans-serif; color: #e8e0ff;
+      background: linear-gradient(to bottom, #4a148c 0%, #1a0033 100%);
+    }
+
+    /* Purple animated ocean waves */
+    .ocean {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2;
+    }
+    .wave {
+      position: absolute; bottom: 0; width: 200%; height: 250px;
+      background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg"><path d="M0,100 C300,150 900,50 1200,100 L1200,200 L0,200 Z" fill="%23623aa2"/></svg>') repeat-x;
+      animation: wave 14s linear infinite; opacity: 0.9;
+    }
+    .wave:nth-child(2) {
+      animation: wave 20s linear infinite reverse; opacity: 0.6; bottom: 30px;
+      background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg"><path d="M0,120 C400,170 800,70 1200,120 L1200,200 L0,200 Z" fill="%237b1fa2"/></svg>') repeat-x;
+    }
+    @keyframes wave {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* Purple light rays */
+    .light-rays {
+      position: absolute; top: 0; width: 100%; height: 100%;
+      background: repeating-linear-gradient(0deg, transparent, transparent 60px, rgba(186,104,200,0.08) 60px, rgba(186,104,200,0.15) 120px);
+      animation: rays 25s linear infinite;
+    }
+    @keyframes rays { 0% { background-position: 0 0; } 100% { background-position: 0 250px; } }
+
+    .container {
+      padding: 60px 20px; position: relative; z-index: 2; max-width: 900px; margin: 0 auto; text-align: center;
+      min-height: 100vh;
+    }
+    h1 {
+      font-family: 'Dancing Script', cursive; font-size: 5.8rem; margin: 20px 0 60px;
+      color: #e1bee7; text-shadow: 0 0 40px #9c27b0;
+    }
+    .letter {
+      background: rgba(74, 20, 140, 0.65); padding: 55px 45px; border-radius: 35px;
+      backdrop-filter: blur(18px); border: 3px solid rgba(155, 89, 182, 0.7);
+      font-size: 1.6rem; line-height: 2.2; text-align: left; margin: 50px auto;
+      box-shadow: 0 40px 100px rgba(0,0,0,0.7); color: #f3e5f5;
+    }
+    .letter p { margin: 28px 0; }
+    .signature { text-align: right; font-family: 'Dancing Script', cursive; font-size: 3.5rem; color: #ffccff; }
+
+    .countdown {
+      font-size: 2.7rem; margin: 70px 0; color: #ce93d8;
+      text-shadow: 0 0 25px #ba68c8;
+    }
+
+    /* Purple rising bubbles & hearts */
+    .bubble {
+      position: absolute; bottom: -100px; width: 25px; height: 25px;
+      background: radial-gradient(circle at 30% 30%, #e1bee7, #9c27b0);
+      border-radius: 50%; opacity: 0.8; pointer-events: none;
+      animation: rise 16s linear infinite;
+    }
+    @keyframes rise {
+      0% { transform: translateY(0) scale(0.4); opacity: 0; }
+      100% { transform: translateY(-130vh) scale(1.8); opacity: 0.5; }
+    }
+
+    .music-btn {
+      position: fixed; bottom: 35px; right: 35px; background: rgba(103, 58, 183, 0.85);
+      padding: 22px 26px; border-radius: 50%; cursor: pointer; z-index: 20;
+      font-size: 2.2rem; backdrop-filter: blur(15px); border: 3px solid #ce93d8;
+      box-shadow: 0 0 40px rgba(186, 104, 200, 0.9);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="ocean">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="light-rays"></div>
+  </div>
+
+  <div class="container">
+    <h1>To My Everything,<br>Mary-Ann ♡</h1>
+    
+    <div class="letter">
+      <p>In just three months, since that day on 29th July 2025, you’ve become such a beautiful part of my life. Every moment with you feels like a gentle light shining in the middle of my day.</p>
+      <p>Even the smallest things — a smile, a laugh, or just hearing your voice — make my heart feel full.</p>
+      <p>I love how deeply you’re into God. Your faith, your devotion, and the way you carry yourself with love and kindness inspire me every single day. It’s one of the many reasons I admire you so much.</p>
+      <p>Being around you makes me want to be a better person, not because I have to, but because you bring out the best in me naturally.</p>
+      <p>Even the quiet moments we share mean the world to me. The way you look at me, the way you say my name, the little playful touches — they all stay with me long after.</p>
+      <p>I cherish every laugh we share, every gentle cuddle, and every simple memory that reminds me how lucky I am to have you.</p>
+      <p>Babe, you have this magical way of making life feel soft, calm, and filled with love. You turn ordinary days into special ones, and even the challenges seem easier with you by my side.</p>
+      <p>You’re not just my girlfriend — you’re my peace, my joy, and my home.</p>
+      <p>I love you more than I can fully express in words, Mary-Ann. I love you in the quiet moments, in the laughter, and in the thoughts I carry about you all day.</p>
+      <p>And I can’t wait for the countless sweet memories we’ll create together — for the adventures, the laughter, and the love that keeps growing between us.</p>
+      <p>Babe, thank you for being you — the most beautiful, inspiring, and loving person in my life. I’m so blessed to call you mine.</p>
+      
+      <p class="signature">Forever yours,<br>Brain-Sill ❤️</p>
+    </div>
+    
+    <div class="countdown" id="countdown"></div>
+    
+    <p style="font-size:1.7rem; color:#e1bee7; text-shadow: 0 0 25px #9c27b0; margin-top: 50px;">
+      Made with every beat of my heart, just for you ♡
+    </p>
+  </div>
+
+  <!-- Music -->
+  <div class="music-btn" id="musicBtn">🎜</div>
+  <audio id="bgmusic" loop preload="auto">
+    <source src="https://data25.chip.de/downloads/audios/John-Legend-All-of-Me_101337441.mp3" type="audio/mp3">
+  </audio>
+
+  <script>
+    const music = document.getElementById('bgmusic');
+    const btn = document.getElementById('musicBtn');
+    btn.addEventListener('click', () => {
+      if (music.paused) { music.play(); btn.innerHTML = '🎝'; }
+      else { music.pause(); btn.innerHTML = '🎜'; }
+    });
+    document.body.addEventListener('click', () => { music.play(); btn.innerHTML = '🎝'; }, {once: true});
+
+    // Rising purple bubbles & hearts
+    setInterval(() => {
+      let bubble = document.createElement('div');
+      bubble.classList.add('bubble');
+      bubble.style.left = Math.random() * 100 + 'vw';
+      bubble.style.width = bubble.style.height = Math.random() * 50 + 25 + 'px';
+      bubble.style.animationDuration = Math.random() * 12 + 12 + 's';
+      document.body.appendChild(bubble);
+      setTimeout(() => bubble.remove(), 25000);
+    }, 700);
+
+    // Countdown from July 29, 2025
+    const startDate = new Date("2025-07-29");
+    const countdownEl = document.getElementById('countdown');
+    setInterval(() => {
+      let diff = Math.floor((new Date() - startDate) / (1000 * 60 * 60 * 24));
+      countdownEl.innerHTML = `We have been in love for <b>${diff} magical days</b> 💜`;
+    }, 1000);
+  </script>
+</body>
+</html>
